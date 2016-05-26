@@ -26,4 +26,3 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
     mean(data$pollutant, na.rm = TRUE)
 }
 
-pollutantmean(specdata, "nitrate", 1:332)
